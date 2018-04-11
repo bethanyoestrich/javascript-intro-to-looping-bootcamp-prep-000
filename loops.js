@@ -22,7 +22,7 @@ function doWhileLoop (array){
     return Math.random()>=1
   }
   do {
-    console.log ('doo-bee-doo-bee-doo')
+    array.pop
   }while (array.length >=1 && maybeTrue());
   return array
 }
